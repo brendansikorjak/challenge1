@@ -54,9 +54,13 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /*
     background-image: url("../images/digital-marketing-meeting.jpg");
+    */
     background-size: cover;
     background-position: center;
+    display: block;
+    object-fit: cover;
 }
 
 .float-left {
@@ -85,7 +89,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +104,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-*/
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
